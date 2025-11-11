@@ -1,0 +1,158 @@
+{
+  "videos": [
+    {
+      "id": "6IuQUgeDPg0",
+      "title": "O que é React JS?",
+      "url": "https://www.youtube.com/watch?v=6IuQUgeDPg0",
+      "cover": "https://img.youtube.com/vi/6IuQUgeDPg0/mqdefault.jpg",
+      "category": "React"
+    },
+    {
+      "id": "aJR7f45dBNs",
+      "title": "5 Desafios de React JS",
+      "url": "https://www.youtube.com/watch?v=aJR7f45dBNs",
+      "cover": "https://img.youtube.com/vi/aJR7f45dBNs/mqdefault.jpg",
+      "category": "React"
+    },
+    {
+      "id": "J9pFbdtNe1c",
+      "title": "Como funciona e suas aplicações",
+      "url": "https://www.youtube.com/watch?v=J9pFbdtNe1c",
+      "cover": "https://img.youtube.com/vi/J9pFbdtNe1c/mqdefault.jpg",
+      "category": "React"
+    },
+    {
+      "id": "s2skans2dP4",
+      "title": "React em 10 Minutos",
+      "url": "https://www.youtube.com/watch?v=s2skans2dP4",
+      "cover": "https://img.youtube.com/vi/s2skans2dP4/mqdefault.jpg",
+      "category": "React"
+    },
+    {
+      "id": "hcp1LqP2OCE",
+      "title": "Avançando em Props",
+      "url": "https://www.youtube.com/watch?v=hcp1LqP2OCE",
+      "cover": "https://img.youtube.com/vi/hcp1LqP2OCE/mqdefault.jpg",
+      "category": "React"
+    },
+    {
+      "id": "hd2B7XQAFls",
+      "title": "Curso para Iniciantes",
+      "url": "https://www.youtube.com/watch?v=hd2B7XQAFls",
+      "cover": "https://img.youtube.com/vi/hd2B7XQAFls/mqdefault.jpg",
+      "category": "React"
+    },
+    {
+      "id": "WRlfwBof66s",
+      "title": "JavaScript em 5 Minutos",
+      "url": "https://www.youtube.com/watch?v=WRlfwBof66s",
+      "cover": "https://img.youtube.com/vi/WRlfwBof66s/mqdefault.jpg",
+      "category": "JavaScript Essencial"
+    },
+    {
+      "id": "COh4kIRvsnU",
+      "title": "JS Essencial",
+      "url": "https://www.youtube.com/watch?v=COh4kIRvsnU",
+      "cover": "https://img.youtube.com/vi/COh4kIRvsnU/mqdefault.jpg",
+      "category": "JavaScript Essencial"
+    },
+    {
+      "id": "YgHQRdGZw3w",
+      "title": "Funções em JS",
+      "url": "https://www.youtube.com/watch?v=YgHQRdGZw3w",
+      "cover": "https://img.youtube.com/vi/YgHQRdGZw3w/mqdefault.jpg",
+      "category": "JavaScript Essencial"
+    },
+    {
+      "id": "HN1U_k-8-oQ",
+      "title": "Conceitos de JS",
+      "url": "https://www.youtube.com/watch?v=jC5v-0USpc4",
+      "cover": "https://img.youtube.com/vi/jC5v-0USpc4/mqdefault.jpg",
+      "category": "JavaScript Essencial"
+    },
+    {
+      "id": "f557G-v3mjA",
+      "title": "Fundamentos de JS",
+      "url": "https://www.youtube.com/watch?v=W3f6hiTLipc",
+      "cover": "https://img.youtube.com/vi/W3f6hiTLipc/mqdefault.jpg",
+      "category": "JavaScript Essencial"
+    },
+    {
+      "id": "0dBY09OJm04",
+      "title": "Manipulação de DOM",
+      "url": "https://www.youtube.com/watch?v=0dBY09OJm04",
+      "cover": "https://img.youtube.com/vi/0dBY09OJm04/mqdefault.jpg",
+      "category": "JavaScript Essencial"
+    },
+    {
+      "id": "Ai-jK2TkeI4",
+      "title": "CSS Grid Layout",
+      "url": "https://www.youtube.com/watch?v=Ai-jK2TkeI4",
+      "cover": "https://img.youtube.com/vi/Ai-jK2TkeI4/mqdefault.jpg",
+      "category": "Dicas de CSS"
+    },
+    {
+      "id": "D-N0-JkpxsY",
+      "title": "CSS Flexbox",
+      "url": "https://www.youtube.com/watch?v=D-N0-JkpxsY",
+      "cover": "https://img.youtube.com/vi/D-N0-JkpxsY/mqdefault.jpg",
+      "category": "Dicas de CSS"
+    },
+    {
+      "id": "jS4Zf32HkYw",
+      "title": "Media Queries (Responsividade)",
+      "url": "https://www.youtube.com/watch?v=jS4Zf32HkYw",
+      "cover": "https://img.youtube.com/vi/jS4Zf32HkYw/mqdefault.jpg",
+      "category": "Dicas de CSS"
+    },
+    {
+      "id": "JPM5_34-d-E",
+      "title": "Variáveis no CSS",
+      "url": "https://www.youtube.com/watch?v=JPM5_34-d-E",
+      "cover": "https://img.youtube.com/vi/JPM5_34-d-E/mqdefault.jpg",
+      "category": "Dicas de CSS"
+    },
+    {
+      "id": "5L9-vO8Vn7M",
+      "title": "Lofi Hip Hop Radio",
+      "url": "https://www.youtube.com/watch?v=5L9-vO8Vn7M",
+      "cover": "https://img.youtube.com/vi/5L9-vO8Vn7M/mqdefault.jpg",
+      "category": "Música para Programar"
+    },
+    {
+      "id": "5qap5aO4i9A",
+      "title": "Synthwave Radio",
+      "url": "https://www.youtube.com/watch?v=5qap5aO4i9A",
+      "cover": "https://img.youtube.com/vi/5qap5aO4i9A/mqdefault.jpg",
+      "category": "Música para Programar"
+    },
+    {
+      "id": "DWcJFNfaw9c",
+      "title": "Classical Music",
+      "url": "https://www.youtube.com/watch?v=DWcJFNfaw9c",
+      "cover": "https://img.youtube.com/vi/DWcJFNfaw9c/mqdefault.jpg",
+      "category": "Música para Programar"
+    },
+    {
+      "id": "9u6yD8fT3_U",
+      "title": "Chillstep Mix",
+      "url": "https://www.youtube.com/watch?v=9u6yD8fT3_U",
+      "cover": "https://img.youtube.com/vi/9u6yD8fT3_U/mqdefault.jpg",
+      "category": "Música para Programar"
+    },
+    {
+      "id": "M5QY2_8704o",
+      "title": "Ambient Study Music",
+      "url": "https://www.youtube.com/watch?v=M5QY2_8704o",
+      "cover": "https://img.youtube.com/vi/M5QY2_8704o/mqdefault.jpg",
+      "category": "Música para Programar"
+    },
+    {
+      "id": "iom_nhYQIYk",
+      "title": "Jazz Hop Radio",
+      "url": "https://www.youtube.com/watch?v=iom_nhYQIYk",
+      "cover": "https://img.youtube.com/vi/iom_nhYQIYk/mqdefault.jpg",
+      "category": "Música para Programar"
+    }
+  ]
+}

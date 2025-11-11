@@ -1,0 +1,18 @@
+.category {
+    margin-bottom: 20px;
+    border: 2px dashed #ffffff; /* Borda tracejada do modelo */
+    padding: 15px;
+}
+
+.category h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.cardContainer {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto; /* Para permitir scroll horizontal (estilo Netflix) */
+    padding-bottom: 10px; /* Espaço para a barra de scroll não ficar colada */
+}

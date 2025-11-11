@@ -1,0 +1,14 @@
+.banner {
+    background-color: #27ae60; /* Verde do modelo */
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    background-size: cover;
+    background-position: center;
+    /*
+       background-image: url('url-da-imagem.jpg'); 
+    */
+}
