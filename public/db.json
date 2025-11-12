@@ -85,73 +85,87 @@
       "category": "JavaScript Essencial"
     },
     {
-      "id": "Ai-jK2TkeI4",
-      "title": "CSS Grid Layout",
-      "url": "https://www.youtube.com/watch?v=Ai-jK2TkeI4",
-      "cover": "https://img.youtube.com/vi/Ai-jK2TkeI4/mqdefault.jpg",
+      "id": "AB35iSr1YyA",
+      "title": "Aprenda CSS do zero",
+      "url": "https://www.youtube.com/watch?v=AB35iSr1YyA",
+      "cover": "https://img.youtube.com/vi/AB35iSr1YyA/mqdefault.jpg",
       "category": "Dicas de CSS"
     },
     {
-      "id": "D-N0-JkpxsY",
-      "title": "CSS Flexbox",
-      "url": "https://www.youtube.com/watch?v=D-N0-JkpxsY",
-      "cover": "https://img.youtube.com/vi/D-N0-JkpxsY/mqdefault.jpg",
+      "id": "vwbegraDXD8",
+      "title": "Faça um Projeto CSS",
+      "url": "https://www.youtube.com/watch?v=vwbegraDXD8",
+      "cover": "https://img.youtube.com/vi/vwbegraDXD8/mqdefault.jpg",
       "category": "Dicas de CSS"
     },
     {
-      "id": "jS4Zf32HkYw",
-      "title": "Media Queries (Responsividade)",
-      "url": "https://www.youtube.com/watch?v=jS4Zf32HkYw",
-      "cover": "https://img.youtube.com/vi/jS4Zf32HkYw/mqdefault.jpg",
+      "id": "pXAGoP2G2vE",
+      "title": "Tela de Login CSS",
+      "url": "https://www.youtube.com/watch?v=pXAGoP2G2vE",
+      "cover": "https://img.youtube.com/vi/pXAGoP2G2vE/mqdefault.jpg",
       "category": "Dicas de CSS"
     },
     {
-      "id": "JPM5_34-d-E",
-      "title": "Variáveis no CSS",
-      "url": "https://www.youtube.com/watch?v=JPM5_34-d-E",
-      "cover": "https://img.youtube.com/vi/JPM5_34-d-E/mqdefault.jpg",
+      "id": "BKATrAAWrRo",
+      "title": "CSS em 5 Minutos",
+      "url": "https://www.youtube.com/watch?v=BKATrAAWrRo",
+      "cover": "https://img.youtube.com/vi/BKATrAAWrRo/mqdefault.jpg",
       "category": "Dicas de CSS"
     },
     {
-      "id": "5L9-vO8Vn7M",
-      "title": "Lofi Hip Hop Radio",
-      "url": "https://www.youtube.com/watch?v=5L9-vO8Vn7M",
-      "cover": "https://img.youtube.com/vi/5L9-vO8Vn7M/mqdefault.jpg",
+      "id": "YRolwGSte9g",
+      "title": "Display Flex",
+      "url": "https://www.youtube.com/watch?v=YRolwGSte9g",
+      "cover": "https://img.youtube.com/vi/YRolwGSte9g/mqdefault.jpg",
+      "category": "Dicas de CSS"
+    },
+    {
+      "id": "YRolwGSte9g",
+      "title": "Flexbox para Iniciantes",
+      "url": "https://www.youtube.com/watch?v=Z4CbaGCEsTY",
+      "cover": "https://img.youtube.com/vi/Z4CbaGCEsTY/mqdefault.jpg",
+      "category": "Dicas de CSS"
+    },
+    {
+      "id": "8Kjhr_8MmU0",
+      "title": "Música para concentrar",
+      "url": "https://www.youtube.com/watch?v=8Kjhr_8MmU0",
+      "cover": "https://img.youtube.com/vi/8Kjhr_8MmU0/mqdefault.jpg",
       "category": "Música para Programar"
     },
     {
-      "id": "5qap5aO4i9A",
-      "title": "Synthwave Radio",
-      "url": "https://www.youtube.com/watch?v=5qap5aO4i9A",
-      "cover": "https://img.youtube.com/vi/5qap5aO4i9A/mqdefault.jpg",
+      "id": "t8OZPJfpcTM",
+      "title": "Lo-Fi",
+      "url": "https://www.youtube.com/watch?v=t8OZPJfpcTM",
+      "cover": "https://img.youtube.com/vi/t8OZPJfpcTM/mqdefault.jpg",
       "category": "Música para Programar"
     },
     {
-      "id": "DWcJFNfaw9c",
-      "title": "Classical Music",
-      "url": "https://www.youtube.com/watch?v=DWcJFNfaw9c",
-      "cover": "https://img.youtube.com/vi/DWcJFNfaw9c/mqdefault.jpg",
-      "category": "Música para Programar"
-    },
-    {
-      "id": "9u6yD8fT3_U",
-      "title": "Chillstep Mix",
-      "url": "https://www.youtube.com/watch?v=9u6yD8fT3_U",
-      "cover": "https://img.youtube.com/vi/9u6yD8fT3_U/mqdefault.jpg",
+      "id": "jfKfPfyJRdk",
+      "title": "Rádio Hip-Hop",
+      "url": "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      "cover": "https://img.youtube.com/vi/jfKfPfyJRdk/mqdefault.jpg",
       "category": "Música para Programar"
     },
     {
       "id": "M5QY2_8704o",
-      "title": "Ambient Study Music",
+      "title": "Chillstep Mix",
       "url": "https://www.youtube.com/watch?v=M5QY2_8704o",
       "cover": "https://img.youtube.com/vi/M5QY2_8704o/mqdefault.jpg",
       "category": "Música para Programar"
     },
     {
-      "id": "iom_nhYQIYk",
-      "title": "Jazz Hop Radio",
-      "url": "https://www.youtube.com/watch?v=iom_nhYQIYk",
-      "cover": "https://img.youtube.com/vi/iom_nhYQIYk/mqdefault.jpg",
+      "id": "VrPoJlcsKeE",
+      "title": "Música Eletrônica",
+      "url": "https://www.youtube.com/watch?v=VrPoJlcsKeE",
+      "cover": "https://img.youtube.com/vi/VrPoJlcsKeE/mqdefault.jpg",
+      "category": "Música para Programar"
+    },
+    {
+      "id": "x57GYTMVxqI",
+      "title": "Jazz Radio",
+      "url": "https://www.youtube.com/watch?v=x57GYTMVxqI",
+      "cover": "https://img.youtube.com/vi/x57GYTMVxqI/mqdefault.jpg",
       "category": "Música para Programar"
     }
   ]

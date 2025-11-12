@@ -1,5 +1,66 @@
 .header {
-    background-color: #000;
-    border-bottom: 2px solid rgb(155, 142, 142);
-    
+    background-color: #111; 
+    border-bottom: 1px solid #333;
+    padding: 0 30px; /* Padding horizontal */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 70px; /* Altura total fixa */
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #8A2BE2, #40E0D0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* --- ESTILOS DA BUSCA --- */
+
+.searchContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    background-color: #333;
+    border: 1px solid #555;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 12px 8px 35px; /* Espaço à esquerda para o ícone */
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.searchInput::placeholder {
+    color: #888;
+}
+
+.searchInput:focus {
+    background-color: #222;
+    border-color: #40E0D0; /* Destaque no gradiente */
+}
+
+.searchIcon {
+    position: absolute;
+    left: 10px; /* Põe o ícone dentro do input */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.searchIcon svg {
+    width: 18px;
+    height: 18px;
 }

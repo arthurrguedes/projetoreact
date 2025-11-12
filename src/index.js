@@ -1,19 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import App from './App'; // 1. Removemos Header e Footer daqui
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <>
-      <Header />
-      <App />
-      <Footer /> {/* 2. Adicione o Footer aqui */}
-    </>
+    <App /> {/* renderizando apenas o App */}
   </React.StrictMode>
 );
 

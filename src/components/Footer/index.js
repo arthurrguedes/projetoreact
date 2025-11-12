@@ -6,7 +6,7 @@ function Footer() {
         // Conteúdo a ser exibido
         <footer className={styles.footer}>
             <nav>
-                <a href="#"> Todos os direitos reservados</a>
+                <a href="#"> +ti ® | Todos os direitos reservados</a>
             </nav>
         </footer>
     )

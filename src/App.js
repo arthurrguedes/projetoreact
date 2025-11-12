@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import Header from './components/Header'; // importado header
 import Banner from './components/Banner';
 import Container from './components/Container';
 import Category from './components/Category';
+import Footer from './components/Footer'; // importado footer
 
 function App() {
-  // Estado para armazenar todos os vídeos
   const [videos, setVideos] = useState([]);
+  const [searchTerm, setSearchTerm] = useState(''); // estado de busca
 
-  // useEffect para buscar os dados da API mockada
   useEffect(() => {
     fetch('/db.json')
       .then(response => response.json())
@@ -16,41 +17,49 @@ function App() {
         setVideos(data.videos);
       })
       .catch(error => console.error("Erro ao buscar vídeos:", error));
-  }, []); // O array vazio [] faz com que rode apenas uma vez
+  }, []);
 
-  // Função para agrupar os vídeos por categoria
-  const groupVideosByCategory = () => {
-    return videos.reduce((acc, video) => {
-      // Se a categoria ainda não existe no acumulador, cria um array vazio
+  // filtra os vídeos antes de agrupar
+  const filteredVideos = videos.filter(video =>
+    video.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  // agrupa os vídeos já filtrados
+  const groupVideosByCategory = (videosToGroup) => {
+    return videosToGroup.reduce((acc, video) => {
       if (!acc[video.category]) {
         acc[video.category] = [];
       }
-      // Adiciona o vídeo à sua categoria
       acc[video.category].push(video);
       return acc;
     }, {});
   };
 
-  const categorizedVideos = groupVideosByCategory();
+  const categorizedVideos = groupVideosByCategory(filteredVideos);
 
   return (
-    <main>
-      <Banner />
+    // fragmento <> para agrupar tudo
+    <>
+      <Header 
+        searchTerm={searchTerm} 
+        setSearchTerm={setSearchTerm} 
+      />
       
-      <Container>
-        {/* Mapeia as chaves do objeto (nomes das categorias)
-          e renderiza um componente category para cada uma
-        */}
-        {Object.keys(categorizedVideos).map(categoryName => (
-          <Category 
-            key={categoryName}
-            categoryName={categoryName}
-            // Passa a lista de vídeos daquela categoria
-            videos={categorizedVideos[categoryName]} 
-          />
-        ))}
-      </Container>
-    </main>
+      <main>
+        <Banner />
+        <Container>
+          {Object.keys(categorizedVideos).map(categoryName => (
+            <Category 
+              key={categoryName}
+              categoryName={categoryName}
+              videos={categorizedVideos[categoryName]} 
+            />
+          ))}
+        </Container>
+      </main>
+      
+      <Footer />
+    </>
   );
 }
 

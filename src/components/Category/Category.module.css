@@ -1,18 +1,25 @@
 .category {
-    margin-bottom: 20px;
-    border: 2px dashed #ffffff; /* Borda tracejada do modelo */
-    padding: 15px;
+    margin-bottom: 30px;
+    border: 2px solid transparent;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #8b70a3, #bee6e2); 
+    
+    padding: 20px;
 }
 
 .category h2 {
-    color: white;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
+    color: #f1f1f1; 
+    margin-top: -10px; 
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    display: inline-block;
+    background-color: #333; 
+    padding: 0 10px; 
 }
 
 .cardContainer {
     display: flex;
-    gap: 10px;
-    overflow-x: auto; /* Para permitir scroll horizontal (estilo Netflix) */
-    padding-bottom: 10px; /* Espaço para a barra de scroll não ficar colada */
+    gap: 15px; 
+    overflow-x: auto; 
+    padding-bottom: 10px; 
 }
