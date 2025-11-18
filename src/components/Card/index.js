@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Card.module.css';
 
-// Recebe os dados do vídeo via props
-function Card({ id, title, url, cover }) {
+function Card({ id, title, cover }) {
+    const linkPath = `/video/${id}`; 
+
     return (
-        <a 
-          href={url} 
-          target="_blank"
-          rel="noopener noreferrer" // Boa prática de segurança
+        <Link 
+          to={linkPath} 
           className={styles.card}
         >
           <img 
@@ -15,9 +15,8 @@ function Card({ id, title, url, cover }) {
             alt={title} 
             className={styles.cover} 
           />
-          {}
           <span className={styles.title}>{title}</span>
-        </a>
+        </Link>
     );
 }
 

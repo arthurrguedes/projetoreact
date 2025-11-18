@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Banner from '../../components/Banner';
 import Container from '../../components/Container';
 import Category from '../../components/Category';
+import styles from './Home.module.css';
 
 // Recebe searchTerm como prop
 function Home({ searchTerm }) {
@@ -38,8 +39,7 @@ function Home({ searchTerm }) {
   const hasCategories = Object.keys(categorizedVideos).length > 0;
 
   return (
-    // Conteúdo principal movido do App.js
-    <main>
+    <main className={styles.main}>
       <Banner />
       <Container>
         {hasCategories ? (

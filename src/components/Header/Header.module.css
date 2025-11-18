@@ -1,7 +1,7 @@
 .header {
     background-color: #111; 
     border-bottom: 1px solid #333;
-    padding: 0 30px; /* Padding horizontal */
+    padding: 0 30px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@
     left: 0;
     right: 0;
     z-index: 1000;
-    height: 70px; /* Altura total fixa */
+    height: 70px; 
 }
 
 .logo {
@@ -20,6 +20,34 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    text-decoration: none; 
+}
+
+/* ESTILOS DA BUSCA E NAVEGAÇÃO */
+
+.navContainer { 
+    display: flex;
+    align-items: center;
+    gap: 30px; 
+}
+
+.navLinks { /* Novo elemento para os links */
+    display: flex;
+    gap: 20px;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.navLinks a:hover,
+.navLinks a.active {
+    background-color: #333;
+    color: #40E0D0;
 }
 
 /* --- ESTILOS DA BUSCA --- */
@@ -35,7 +63,7 @@
     border: 1px solid #555;
     border-radius: 4px;
     color: white;
-    padding: 8px 12px 8px 35px; /* Espaço à esquerda para o ícone */
+    padding: 8px 12px 8px 35px;
     font-size: 1rem;
     outline: none;
     transition: border-color 0.2s, background-color 0.2s;
@@ -47,12 +75,12 @@
 
 .searchInput:focus {
     background-color: #222;
-    border-color: #40E0D0; /* Destaque no gradiente */
+    border-color: #40E0D0;
 }
 
 .searchIcon {
     position: absolute;
-    left: 10px; /* Põe o ícone dentro do input */
+    left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;

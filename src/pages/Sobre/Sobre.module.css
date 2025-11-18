@@ -1,0 +1,28 @@
+.main {
+    padding-top: 80px; 
+    padding: 20px;
+    min-height: calc(100vh - 70px - 80px); 
+    background-color: #222; 
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #122ca0, #40E0D0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.Sobre_title__ga8Am {
+    margin-top: 10px;
+}
